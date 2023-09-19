@@ -16,6 +16,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+input {
+  font-family: inherit;
+}
 p {
   margin: 0;
 }
@@ -409,4 +412,37 @@ header .container,
 }
 .link-footer:focus {
   background-color: #31d0aa;
+}
+
+/* ----------------- */
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e2f4266;
+  width: 100%;
+}
+
+.modal {
+  background-color: #fcfcfc;
+  width: 408px;
+  border-radius: 4px;
+  padding: 72px 24px 24px;
+  position: relative;
+}
+.modal-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.modal-header {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.32px;
 }
