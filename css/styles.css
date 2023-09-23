@@ -645,7 +645,7 @@ header .container,
   height: 100%;
   padding: 4px 3px;
 }
-.modal-checkbox:checked + .label-position .checkbox-icon {
+.modal-checkbox:checked + .label-text .checkbox .checkbox-icon {
   opacity: 1;
   background-color: #404bbf;
   border: none;
