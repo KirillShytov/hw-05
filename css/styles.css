@@ -580,12 +580,9 @@ header .container,
 
 .link-privacy {
   text-decoration: underline;
+  color: #4d5ae5;
 }
-.modal-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .modal-input {
   border: 1px solid #2e2f4266;
   border-radius: 4px;
@@ -650,4 +647,7 @@ header .container,
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+.modal-button {
+  margin: 0 auto;
 }
