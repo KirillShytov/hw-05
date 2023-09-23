@@ -521,7 +521,7 @@
                 type="tel"
                 name="user-number"
               />
-              <svg class="modal-icon" width="18" height="24">
+              <svg class="modal-icon" width="18">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
             </div>
@@ -535,12 +535,13 @@
                 type="email"
                 name="user-email"
               />
-              <svg class="modal-icon" width="18" height="24">
+              <svg class="modal-icon" width="18">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
             </div>
           </div>
-          <div class="mod-wrap-svg-input">
+
+          <div class="mod-wrap-svg-input text-area-margin">
             <label class="label-text" for="user-comment">Comment</label>
             <textarea
               class="modal-text-area modal-input"
@@ -549,22 +550,24 @@
               placeholder="Text input"
             ></textarea>
           </div>
+
           <div class="checkbox-wrap">
             <input
               class="modal-checkbox visually-hidden"
-              id="user-policy"
+              id="user-privacy"
               type="checkbox"
-              name="user-policy"
+              name="user-privacy"
+              value="true"
             />
+            <label class="label-text" for="user-privacy"
+              >I accept the terms and conditions of the
+              <a class="link-privacy" href="#">Privacy Policy</a></label
+            >
             <span class="checkbox">
               <svg class="checkbox-icon" width="10" height="8">
                 <use href="./images/icons.svg#icon-Vector"></use>
               </svg>
             </span>
-            <label class="label-text" for="user-policy"
-              >I accept the terms and conditions of the
-              <a class="link-privacy" href="#">Privacy Policy</a></label
-            >
           </div>
           <div class="modal-button">
             <button class="button" type="submit">Send</button>
