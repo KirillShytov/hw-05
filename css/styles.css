@@ -544,13 +544,16 @@ header .container,
   margin-bottom: 16px;
   text-align: center;
 }
-
+.modal-field {
+  margin-bottom: 8px;
+}
 .mod-wrap-svg-input {
   display: flex;
   flex-direction: column;
   margin-bottom: 8px;
 }
 .label-text {
+  display: block;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;
