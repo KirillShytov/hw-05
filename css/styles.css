@@ -625,11 +625,7 @@ header .container,
 .modal-input:focus + .modal-icon {
   fill: #4d5ae5;
 }
-.label-position {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
+
 .checkbox {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
@@ -651,7 +647,7 @@ header .container,
   opacity: 1;
   background-color: #404bbf;
   border: none;
-  fill: #f4f4fd;
+  fill: #ffffff;
   border-color: #404bbf;
 }
 
