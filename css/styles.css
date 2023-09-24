@@ -11,6 +11,19 @@ h5,
 h6 {
   margin: 0;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inser(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidd;
+}
 img {
   display: block;
   max-width: 100%;
@@ -639,10 +652,7 @@ header .container,
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox-icon {
-  opacity: 0;
-  padding: 4px 3px;
-}
+
 .modal-input:checked + .label-modal > .checkbox {
   opacity: 1;
   background-color: #404bbf;
