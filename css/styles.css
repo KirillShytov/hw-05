@@ -474,9 +474,6 @@ header .container,
 
   gap: 24px;
 }
-.text-footer-subscribe {
-  margin-left: 24px;
-}
 
 /* ----------------- */
 
@@ -643,16 +640,16 @@ header .container,
 }
 .checkbox-icon {
   opacity: 0;
-  width: 100%;
-  height: 100%;
   padding: 4px 3px;
 }
-.modal-checkbox:checked + .label-text .checkbox .checkbox-icon {
+.modal-input:checked + .label-modal > .checkbox {
   opacity: 1;
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+  border-color: #404bbf;
 }
+
 .modal-button {
   margin: 0 auto;
 }
